@@ -44,7 +44,6 @@
 		17FF5E3724533D9200B779D8 = {
 			isa = PBXGroup;
 			children = (
-				1753AE182453579A006B5BF1 /* MapView.swift */,
 				17FF5E4224533D9200B779D8 /* swift-ui-first-app */,
 				17FF5E4124533D9200B779D8 /* Products */,
 			);
@@ -61,6 +60,7 @@
 		17FF5E4224533D9200B779D8 /* swift-ui-first-app */ = {
 			isa = PBXGroup;
 			children = (
+				1753AE182453579A006B5BF1 /* MapView.swift */,
 				1753AE16245355F2006B5BF1 /* CircleImage.swift */,
 				17FF5E4324533D9200B779D8 /* AppDelegate.swift */,
 				17FF5E4524533D9200B779D8 /* SceneDelegate.swift */,
