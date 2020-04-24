@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
+        List(0 ..< 5) {item in
             Image(systemName: "photo")
             VStack(alignment: .leading) {
                 Text("Rooms")
