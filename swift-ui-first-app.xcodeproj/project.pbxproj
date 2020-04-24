@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1753AE1524535522006B5BF1 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1753AE1324535522006B5BF1 /* turtlerock.jpg */; };
 		1753AE17245355F2006B5BF1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753AE16245355F2006B5BF1 /* CircleImage.swift */; };
 		17FF5E4424533D9200B779D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF5E4324533D9200B779D8 /* AppDelegate.swift */; };
 		17FF5E4624533D9200B779D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF5E4524533D9200B779D8 /* SceneDelegate.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1753AE1324535522006B5BF1 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		1753AE16245355F2006B5BF1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		17FF5E4024533D9200B779D8 /* swift-ui-first-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-ui-first-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FF5E4324533D9200B779D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,14 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1753AE1024535522006B5BF1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1753AE1324535522006B5BF1 /* turtlerock.jpg */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		17FF5E3724533D9200B779D8 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				1753AE16245355F2006B5BF1 /* CircleImage.swift */,
-				1753AE1024535522006B5BF1 /* Resources */,
 				17FF5E4324533D9200B779D8 /* AppDelegate.swift */,
 				17FF5E4524533D9200B779D8 /* SceneDelegate.swift */,
 				17FF5E4724533D9200B779D8 /* ContentView.swift */,
@@ -150,7 +139,6 @@
 				17FF5E5024533D9800B779D8 /* LaunchScreen.storyboard in Resources */,
 				17FF5E4D24533D9800B779D8 /* Preview Assets.xcassets in Resources */,
 				17FF5E4A24533D9800B779D8 /* Assets.xcassets in Resources */,
-				1753AE1524535522006B5BF1 /* turtlerock.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
