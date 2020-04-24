@@ -10,15 +10,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List(0 ..< 5) {item in
-            Image(systemName: "photo")
+        VStack {
             VStack(alignment: .leading) {
-                Text("Rooms")
-                Text("20 people")
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
+                Text("Turtle Rock")
+                    .font(.title)
+                    .foregroundColor(.green)
+                HStack {
+                    Text(/*@START_MENU_TOKEN@*/"Joshua Tree National Park"/*@END_MENU_TOKEN@*/)
+                        .font(.subheadline)
+                    Spacer()
+                    Text("California")
+                        .font(.subheadline)
+                }
             }
+            
         }
+        .padding()
     }
 }
 
