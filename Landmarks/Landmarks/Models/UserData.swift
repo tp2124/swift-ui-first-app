@@ -1,16 +1,14 @@
-//
-//  UserData.swift
-//  Landmarks
-//
-//  Created by Travis Primm on 10/16/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
 
-import Foundation
+Abstract:
+A model object that stores app data.
+*/
+
 import Combine
+import SwiftUI
 
 final class UserData: ObservableObject {
     @Published var showFavoritesOnly = false
     @Published var landmarks = landmarkData
 }
-
