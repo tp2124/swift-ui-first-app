@@ -1,5 +1,3 @@
-# swift-ui-first-app
-Creating an iOS app using SwiftUI.
+# Building Lists and Navigation
 
-Content is being led from the tutorials at: https://developer.apple.com/tutorials/swiftui/
-
+Use this project to code along with the [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) tutorial.
