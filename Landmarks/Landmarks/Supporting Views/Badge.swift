@@ -1,10 +1,9 @@
-//
-//  Badge.swift
-//  Landmarks
-//
-//  Created by Travis Primm on 10/17/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that displays a badge.
+*/
 
 import SwiftUI
 
@@ -14,20 +13,19 @@ struct Badge: View {
     var badgeSymbols: some View {
         ForEach(0..<Badge.rotationCount) { i in
             RotatedBadgeSymbol(
-                angle: .degrees(Double(i) / Double(Badge.rotationCount)) * 360.0
-            )
+                angle: .degrees(Double(i) / Double(Badge.rotationCount)) * 360.0)
         }
         .opacity(0.5)
     }
     
     var body: some View {
-        ZStack{
+        ZStack {
             BadgeBackground()
             
             GeometryReader { geometry in
                 self.badgeSymbols
-                    .scaleEffect(1.0 / 4.0, anchor: .top)
-                    .position(x: geometry.size.width / 2.0, y: (3.0 / 4.0) * geometry.size.height)
+                .scaleEffect(1.0 / 4.0, anchor: .top)
+                .position(x: geometry.size.width / 2.0, y: (3.0 / 4.0) * geometry.size.height)
             }
         }
         .scaledToFit()

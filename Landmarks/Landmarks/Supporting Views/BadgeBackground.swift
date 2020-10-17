@@ -1,10 +1,9 @@
-//
-//  Badge.swift
-//  Landmarks
-//
-//  Created by Travis Primm on 10/17/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that displays the background of a badge.
+*/
 
 import SwiftUI
 
