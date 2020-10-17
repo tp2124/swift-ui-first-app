@@ -1,10 +1,9 @@
-//
-//  ProfileSummary.swift
-//  Landmarks
-//
-//  Created by Travis Primm on 10/17/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that hosts the profile viewer and editor.
+*/
 
 import SwiftUI
 
@@ -14,7 +13,7 @@ struct ProfileHost: View {
     @State var draftProfile = Profile.default
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 20, content: {
+        VStack(alignment: .leading, spacing: 20) {
             HStack {
                 if self.mode?.wrappedValue == .active {
                     Button("Cancel") {
@@ -27,7 +26,6 @@ struct ProfileHost: View {
                 
                 EditButton()
             }
-            
             if self.mode?.wrappedValue == .inactive {
                 ProfileSummary(profile: userData.profile)
             } else {
@@ -39,14 +37,13 @@ struct ProfileHost: View {
                         self.userData.profile = self.draftProfile
                     }
             }
-        })
+        }
         .padding()
     }
 }
 
 struct ProfileHost_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileHost()
-            .environmentObject(UserData())
+        ProfileHost().environmentObject(UserData())
     }
 }

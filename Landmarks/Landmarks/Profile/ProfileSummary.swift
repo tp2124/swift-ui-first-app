@@ -1,10 +1,9 @@
-//
-//  ProfileSummary.swift
-//  Landmarks
-//
-//  Created by Travis Primm on 10/17/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view that summarizes a profile.
+*/
 
 import SwiftUI
 
@@ -39,8 +38,7 @@ struct ProfileSummary: View {
                         
                         HikeBadge(name: "Earth Day")
                             .hueRotation(Angle(degrees: 90))
-                        
-                        
+                               
                         HikeBadge(name: "Tenth Hike")
                             .grayscale(0.5)
                             .hueRotation(Angle(degrees: 45))

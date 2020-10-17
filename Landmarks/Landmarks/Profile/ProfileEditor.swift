@@ -1,10 +1,9 @@
-//
-//  ProfileEditor.swift
-//  Landmarks
-//
-//  Created by Travis Primm on 10/17/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+An editable profile view.
+*/
 
 import SwiftUI
 
@@ -25,9 +24,9 @@ struct ProfileEditor: View {
                 TextField("Username", text: $profile.username)
             }
             
-            Toggle(isOn: $profile.prefersNotifications, label: {
+            Toggle(isOn: $profile.prefersNotifications) {
                 Text("Enable Notifications")
-            })
+            }
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Seasonal Photo").bold()
