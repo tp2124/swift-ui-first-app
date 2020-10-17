@@ -1,10 +1,9 @@
-//
-//  Home.swift
-//  Landmarks
-//
-//  Created by Travis Primm on 10/17/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing featured landmarks above a list of all of the landmarks.
+*/
 
 import SwiftUI
 
@@ -30,7 +29,7 @@ struct CategoryHome: View {
                 .padding()
         }
     }
-    
+
     var body: some View {
         NavigationView {
             List {
@@ -39,6 +38,7 @@ struct CategoryHome: View {
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
+                
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
@@ -55,17 +55,18 @@ struct CategoryHome: View {
             }
         }
     }
-    
-    struct FeaturedLandmarks: View {
-        var landmarks: [Landmark]
-        var body: some View {
-            landmarks[0].image.resizable()
-        }
+}
+
+struct FeaturedLandmarks: View {
+    var landmarks: [Landmark]
+    var body: some View {
+        landmarks[0].image.resizable()
     }
 }
 
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
+            .environmentObject(UserData())
     }
 }
