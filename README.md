@@ -1,3 +1,3 @@
-# Completed Project: Creating a watchOS App
+# Creating a macOS App
 
-Explore the completed project for the [Creating a watchOS App](https://developer.apple.com/tutorials/swiftui/creating-a-watchOS-app) tutorial.
+Use this project to code along with the [Creating a macOS App](https://developer.apple.com/tutorials/swiftui/creating-a-macOS-app) tutorial.

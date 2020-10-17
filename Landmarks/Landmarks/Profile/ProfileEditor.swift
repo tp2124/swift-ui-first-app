@@ -58,3 +58,4 @@ struct ProfileEditor_Previews: PreviewProvider {
         ProfileEditor(profile: .constant(.default))
     }
 }
+
